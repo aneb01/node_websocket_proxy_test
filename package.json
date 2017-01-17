@@ -1,0 +1,25 @@
+{
+  "name": "node_websocket_proxy_test",
+  "version": "1.0.0",
+  "description": "Small example on how to redirect websocket requests and http requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneb01/node_websocket_proxy_test.git"
+  },
+  "author": "Yves Peckstadt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aneb01/node_websocket_proxy_test/issues"
+  },
+  "homepage": "https://github.com/aneb01/node_websocket_proxy_test#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http-proxy": "^1.16.2",
+    "winston": "^2.3.0"
+  }
+}
