@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script type="text/javascript" src="/node/socket.io-client/dist/socket.io.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var socket = io("http://localhost:9000");
+            socket.on('connect', function(){
+                console.log("connected");
+            });
+            socket.on('event', function(data){});
+            socket.on('disconnect', function(){});
+        </script>
+    </body>
+</html>
