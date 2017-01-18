@@ -1,7 +1,7 @@
 {
   "name": "node_websocket_proxy_test",
   "version": "1.0.0",
-  "description": "Small example on how to redirect websocket requests and http requests",
+  "description": "Example on how to redirect websocket requests and http requests",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
